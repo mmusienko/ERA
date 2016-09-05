@@ -147,7 +147,7 @@ class era(wx.Frame):
 		era.check_interval.SetSelection(3)
 
 		# Define regions we have systems for in a list
-		region_list = [ 'dek', 'brn', 'ftn', 'fade', 'tnl', 'tri', 'vnl', 'vale', 'cr' ]
+		region_list = [ 'dek', 'brn', 'ftn', 'fade', 'tnl', 'tri', 'vnl', 'vale', 'cr', 'delve' ]
 		# Create text "Region" before the dropdown box
 		wx.StaticText(self.panel, -1, 'Region', (225,15))
 		# Create the dropdown box
